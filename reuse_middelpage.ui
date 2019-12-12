@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>704</width>
-    <height>884</height>
+    <width>717</width>
+    <height>900</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -43,7 +43,7 @@
      <widget class="QWidget" name="scrollAreaWidgetContents">
       <property name="geometry">
        <rect>
-        <x>-32</x>
+        <x>0</x>
         <y>0</y>
         <width>800</width>
         <height>1000</height>
@@ -100,6 +100,16 @@
           </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(220, 223, 231);</string>
+          </property>
+         </widget>
+         <widget class="QGraphicsView" name="graphicsView">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>510</y>
+            <width>256</width>
+            <height>192</height>
+           </rect>
           </property>
          </widget>
         </widget>
